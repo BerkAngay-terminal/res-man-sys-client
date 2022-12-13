@@ -162,12 +162,12 @@ export default function MainLayout({ child }) {
 
                     {/* User Info */}
                     <div className="flex flex-shrink-0 border-t border-gray-800 p-4">
-                        <a href="#" className="group block w-full flex-shrink-0">
+                        <a href="#" className="group block w-full flex-shrink-0 group">
                             <div className="flex items-center">
                                 <div>
                                     <img
-                                        className="inline-block h-9 w-9 rounded-full"
-                                        src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                                        className="inline-block h-9 w-9 rounded-full group-hover:opacity-75"
+                                        src="https://pbs.twimg.com/profile_images/378800000229958782/766ed89fd909d1dea040c9270728c432_400x400.jpeg"
                                         alt=""
                                     />
                                 </div>
@@ -222,8 +222,9 @@ export default function MainLayout({ child }) {
                                 </div>
                             </div>
 
-
-                            {child}
+                            <div className='py-5'>
+                                {child}
+                            </div>
 
                         </div>
                     </div>

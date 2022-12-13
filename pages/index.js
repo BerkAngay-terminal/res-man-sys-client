@@ -15,7 +15,10 @@ export default function Home() {
       </Head>
       <MainLayout
         child={
-          <></>
+          <div className='flex flex-col'>
+            <h3 className='text-3xl text-gray-700 font-bold'> Good Morning Alican 👋.</h3>
+
+          </div>
         }
       />
     </>
